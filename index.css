@@ -1,0 +1,60 @@
+:root {
+  --primary-color: #34699A;
+  --secondary-color: #113F67;
+}
+
+body{
+    font-family: "Poppins", serif;
+    font-size: large;
+    font-weight: 300;
+    /* color: var(--secondary-color); */
+    color: white;
+}
+
+.section{
+    display: flex;
+    gap: 40px;
+}
+
+.leftsec{
+    margin: 50px 100px; 
+    padding: 50px;
+    /* background-color: aqua;   */
+    line-height: 50px;
+    /* display: none; */
+}
+
+.leftsen label{
+    font-weight: bold;
+}
+
+.leftsec input{
+    height: 30px;
+    width: 500px;
+    color: var(--secondary-color);
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: large;
+    font-weight: 100;
+}
+
+.rightsec{
+    background-color: red;
+    display: none;
+}
+
+.resume{
+    background-color: var(--secondary-color);
+    height: 700px;
+    width: 700px;
+}
+
+.head{
+    height: 80px;
+    background-color: var(--primary-color);
+}
+
+.summary{
+    background-color: ;
+}
